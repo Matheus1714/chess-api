@@ -1,7 +1,7 @@
 **/.vscode
 **/*.pyc
 venv/
-trash/
+transh
 .env
 **/__pycache__/
 **/*.log
