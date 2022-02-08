@@ -58,6 +58,18 @@ DATABASES = {
 }
 ```
 
+In the folder `scripts_sql`, run thats scritps on SQLServer to create the tables in database.
+
+Finally make migrate in this project to set the model in Django
+
+```sh
+> python manage.py makemigrations
+```
+
+```sh
+> python manage.py migrate
+```
+
 ## Super User
 
 In Django it is necessary to create a super user to be able to have more freedom to manipulate the data tables, so I recommend creating one.
