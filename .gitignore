@@ -5,3 +5,4 @@ transh
 .env
 **/__pycache__/
 **/*.log
+**/migrations/
